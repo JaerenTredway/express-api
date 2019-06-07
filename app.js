@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 //     );
 // });
 
-routes(app);
+routes(app); //this replaces the above .get() method
 
 // Start the server
 const server = app.listen(port, (error) => {
